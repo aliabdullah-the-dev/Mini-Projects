@@ -22,10 +22,14 @@ decrementBtn.addEventListener('click', decrement);
 saveBtn.addEventListener('click', handleSave);
 
 // Define the functions
+function capitalize(str) {
+    return str.replace(/\b\w/g, match => match.toUpperCase());
+}
+
 function initCounter() {
-    const obj = prompt(PROMPT_MESSAGE);
-    if (obj) {
-        headingEl.innerText = obj.toUpperCase() + " Counter";
+    const str = prompt(PROMPT_MESSAGE);
+    if (str) {
+        headingEl.innerText = capitalize(str) + " Counter";
     } else {
         headingEl.innerText = DEFAULT_HEADING;
     }
