@@ -8,4 +8,4 @@ These are the URLs for all the projects in this repository.
 > [Count Master](https://the-aliabdullah.github.io/Mini-Projects/Count%20Master/ "A simple Counter")
 
 ### Project 2
-> [BasketBall Scoreboard](https://the-aliabdullah.github.io/Mini-Projects/Count%20Master/ "A Scoreboard for a Basketball game")
+> [Basketball Scoreboard](https://the-aliabdullah.github.io/Mini-Projects/Basketball%20Scoreboard/ "A Scoreboard for a Basketball game")
