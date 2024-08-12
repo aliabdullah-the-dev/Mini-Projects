@@ -8,18 +8,22 @@ const totalEl = document.getElementById("total-el");
 const headingEl = document.getElementById('heading-el');
 const pageContent = document.getElementsByClassName('container')[0];
 
+
 // Constants
 const DEFAULT_HEADING = "Count Master";
 const PROMPT_MESSAGE = "What do you want to count?";
 
+
 // Initialize count variable
 let count = 0;
+
 
 // Add event listeners
 document.addEventListener("DOMContentLoaded", initCounter);
 incrementBtn.addEventListener('click', increment);
 decrementBtn.addEventListener('click', decrement);
 saveBtn.addEventListener('click', handleSave);
+
 
 // Define the functions
 function capitalize(str) {
