@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div id="main">
+            <div id="container">
+                <h2>Generate a </br><span>Random Password</span></h2>
+                <p>Never use insecure passwords again.</p>
+                <form action="">
+                    <div id="length-con">
+                        <label for="length-el">Length:</label>
+                        <input id="length-el" type="range" name="length" step="2" min="4" max="20" value="12">
+                        <span id="length-span-el">12</span>
+                    </div>
+                    <div>
+                        <input id="symbols-el" type="checkbox" name="symbols">
+                        <label for="symbols-el">Symbols</label>
+                    </div>
+                    <div>
+                        <input id="numbers-el" type="checkbox" name="numbers">
+                        <label for="numbers-el">Numbers</label>
+                    </div>
+                </form>
+                <button id="btn-el">Generate passwords</button>
+                <div id="divider"></div>
+                <div id="pass-con">
+                    <div id="pass1-el" class="pass"></div>
+                    <div id="pass2-el" class="pass"></div>
+                </div>
+            </div>
+        </div>
+        <div id="notification-el">
+            Password, Copied to clipboard.
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

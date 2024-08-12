@@ -9,3 +9,6 @@ These are the URLs for all the projects in this repository.
 
 ### Project 2
 > [Basketball Scoreboard](https://the-aliabdullah.github.io/Mini-Projects/2-%20Basketball%20Scoreboard/ "A Scoreboard for a Basketball game")
+
+### Project 3
+> [Password Generator](https://the-aliabdullah.github.io/Mini-Projects/3-%20Password%20Generator/ "A Random Password Generator")
